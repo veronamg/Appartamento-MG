@@ -1,0 +1,253 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HOME</title>
+<meta name="generator" content="WYSIWYG Web Builder 18 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/sito_appartam_3PG.css" rel="stylesheet">
+<link href="css/HOME.css" rel="stylesheet">
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/jquery.ui.effect.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="prettyPhoto/css/prettyPhoto.css">
+<script src="prettyPhoto/js/jquery.prettyPhoto.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function(event)
+{
+   var headerMenu_dropdownToggle = document.querySelectorAll('#headerMenu .dropdown-toggle');
+   headerMenu_dropdownToggle.forEach(item => 
+   {
+      var dropdown = new bootstrap.Dropdown(item, {popperConfig:{placement:item.getAttribute('data-bs-placement')}});
+   });
+   var headerMenu_dropdown = document.querySelectorAll('#headerMenu .dropdown');
+   headerMenu_dropdown.forEach(item => 
+   {
+      item.addEventListener('shown.bs.dropdown', function(e)
+      {
+         e.currentTarget.classList.add('show');
+      });
+      item.addEventListener('hidden.bs.dropdown', function(e)
+      {
+         e.currentTarget.classList.remove('show');
+      });
+   });
+});
+</script>
+<script>
+$(document).ready(function()
+{
+   $("a[href*='#header']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_header').offset().top }, 600, 'easeOutCirc');
+   });
+   $("a[data-rel='prettyPhoto_PhotoGallery1[PhotoGallery1]']").attr('rel', 'prettyPhoto_PhotoGallery1[PhotoGallery1]');
+   $("a[rel^='prettyPhoto_PhotoGallery1']").prettyPhoto({theme:'facebook',social_tools:false});
+   var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+   if (iOS)
+   {
+      $('#wb_jumbotron,#wb_LayoutGrid1').css('background-attachment', 'scroll');
+   }
+});
+</script>
+</head>
+<body>
+<div id="wb_header">
+<div id="header">
+<div class="col-1">
+</div>
+<div class="col-2">
+<div id="wb_headerMenu" style="display:inline-block;width:100%;z-index:0;">
+<div id="headerMenu" class="headerMenu" style="width:100%;height:auto !important;">
+<div class="container">
+<div class="navbar-header">
+<button title="" type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target=".headerMenu-navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="headerMenu-navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="nav-item">
+<a href="./HOME.html" title="HOME" class="nav-link"><i class="fa fa-home"></i>HOME</a>
+</li>
+<li class="nav-item">
+<a href="./FOTO.html" title="FOTO" class="nav-link"><i class="fa fa-camera-retro"></i>FOTO</a>
+</li>
+<li class="nav-item">
+<a href="./MAPPA.html" title="MAPPA" class="nav-link"><i class="fa fa-envelope-open"></i>MAPPA</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-3">
+</div>
+</div>
+</div>
+<div id="upStickyLayer" style="position:fixed;text-align:left;left:auto;right:25px;top:auto;bottom:25px;width:42px;height:42px;z-index:18;">
+<div id="wb_upIcon" style="position:absolute;left:5px;top:5px;width:24px;height:24px;text-align:center;z-index:1;">
+<a href="#jumbotron"><div id="upIcon"><i class="fa fa-arrow-up"></i></div></a></div>
+</div>
+<div id="wb_jumbotron">
+<div id="jumbotron">
+<div class="col-1">
+<div id="wb_Heading1" style="display:inline-block;width:100%;z-index:2;">
+<h1 id="Heading1">APPARTAMENTO<br> MONTE GRAPPA</h1>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_layoutGridAbout">
+<div id="layoutGridAbout">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text2">
+<div id="Text2-max-width">
+<span style="color:#000000;font-family:Arial;font-size:24px;line-height:29px;"><strong>…a 15 minuti di passeggiata dall’ Arena di Verona<br>…15 minute walk from the Verona Arena<br>…15 gehminuten von der Arena von Verona entfernt<br></strong></span><span style="color:#000000;font-family:'Bookman Old Style';font-size:24px;line-height:22px;"><br></span><span style="color:#000000;font-family:'Times New Roman';font-size:24px;line-height:22px;"><strong><u>Per informazioni e/o prenotazioni // Fur informationen oder Reservierungen // For informations or Reservations:<br><br></u></strong></span><span style="color:#000000;font-family:'Bookman Old Style';font-size:24px;line-height:16px;">	</span>
+</div>
+</div>
+<div id="wb_Text3">
+<span style="color:#000000;font-family:'Lucida Console';font-size:24px;"><strong><br></strong></span><span style="color:#000000;font-family:Tahoma;font-size:29px;"><strong>Laura 339-7567383</strong></span><span style="color:#000000;font-family:'MS Serif';font-size:29px;"><br></span><span style="color:#000000;font-family:'Open Sans';font-size:24px;"><a href="mailto:laurabonafini77@gmail.com">laurabonafini77@gmail.com</a><br><br></span><span style="color:#000000;font-family:Tahoma;font-size:29px;"><strong>Fabio 335-8034614</strong></span><span style="color:#000000;font-family:'Open Sans';font-size:24px;"><br><a href="mailto:fabiominopoli71@gmail.com">fabiominopoli71@gmail.com </a></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_layoutGridProducts">
+<div id="layoutGridProducts">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Card1" style="display:flex;width:100%;z-index:5;" class="card">
+   <div id="Card1-card-body">
+      <div id="Card1-card-item0">Servizi</div>
+      <img id="Card1-card-item1" src="images/icons2.png" width="1000" height="198" alt="" title="">
+      <div id="Card1-card-item2"></div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading3" style="display:inline-block;width:100%;z-index:6;">
+<h2 id="Heading3">DESCRIZIONE</h2>
+</div>
+<div id="wb_Text1">
+<div id="Text1-max-width">
+<span style="color:#FFFFFF;font-family:'Open Sans';font-size:21px;">L’appartamento è dotato di un ampio terrazzo attrezzato; 2 camere da letto matrimoniali con la possibilità di separare i letti ed avere 4 posti letto singoli, e cucina completa di lavastoviglie.<br><br>The apartment has a large equipped terrace two double bedrooms with separable beds for a total of four beds ; full kitchen with dishwasher.<br><br>Die Wohnung verfügt über eine große ausgestattete Terrasse, 2 Doppelzimmer mit der Möglichkeit, die Betten für insgesamt 4 Betten zu trennen, voll ausgestattete Küche mit Geschirrspüle<br></span>
+</div>
+</div>
+<div id="wb_Image1" style="display:inline-block;width:100%;height:auto;z-index:8;">
+<img src="images/gmap681.jpg" id="Image1" alt="" width="964" height="671">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_layoutGridGallery">
+<div id="layoutGridGallery">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading4" style="display:inline-block;width:100%;z-index:9;">
+<h2 id="Heading4">FOTO</h2>
+</div>
+<div id="wb_PhotoGallery1" style="display:inline-block;width:100%;z-index:10;">
+<div id="PhotoGallery1">
+   <div class="thumbnails">
+      <div class="thumbnail">
+         <a href="images/a2.jpg" data-rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="a2"><img alt="" src="images/tn_a2.jpg" loading="lazy" class="image" title="a2" width="307" height="409"></a>
+      </div>
+      <div class="thumbnail">
+         <a href="images/ba.jpg" data-rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="ba"><img alt="" src="images/tn_ba.jpg" loading="lazy" class="image" title="ba" width="307" height="409"></a>
+      </div>
+      <div class="thumbnail">
+         <a href="images/ba2.jpg" data-rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="ba2"><img alt="" src="images/tn_ba2.jpg" loading="lazy" class="image" title="ba2" width="307" height="409"></a>
+      </div>
+      <div class="clearfix visible-col3"></div>
+      <div class="thumbnail">
+         <a href="images/a3.jpg" data-rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="a3"><img alt="" src="images/tn_a3.jpg" loading="lazy" class="image" title="a3" width="307" height="230"></a>
+      </div>
+      <div class="thumbnail">
+         <a href="images/b3.jpg" data-rel="prettyPhoto_PhotoGallery1[PhotoGallery1]"><img alt="" src="images/tn_b3.jpg" loading="lazy" class="image" width="307" height="230"></a>
+      </div>
+      <div class="thumbnail">
+         <a href="images/b4.jpg" data-rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="b4"><img alt="" src="images/tn_b4.jpg" loading="lazy" class="image" title="b4" width="307" height="230"></a>
+      </div>
+      <div class="clearfix visible-col3"></div>
+      <div class="thumbnail">
+         <a href="images/g2.jpg" data-rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="g2"><img alt="" src="images/tn_g2.jpg" loading="lazy" class="image" title="g2" width="307" height="230"></a>
+      </div>
+      <div class="thumbnail">
+         <a href="images/g-adjust.jpg" data-rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="g-adjust"><img alt="" src="images/tn_g-adjust.jpg" loading="lazy" class="image" title="g-adjust" width="307" height="230"></a>
+      </div>
+      <div class="thumbnail">
+         <a href="images/s.jpg" data-rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="s"><img alt="" src="images/tn_s.jpg" loading="lazy" class="image" title="s" width="307" height="230"></a>
+      </div>
+      <div class="clearfix visible-col3"></div>
+      <div class="thumbnail">
+         <a href="images/t-adjust.jpg" data-rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="t-adjust"><img alt="" src="images/tn_t-adjust.jpg" loading="lazy" class="image" title="t-adjust" width="307" height="409"></a>
+      </div>
+      <div class="thumbnail">
+         <a href="images/z3-adjust.jpg" data-rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="z3-adjust"><img alt="" src="images/tn_z3-adjust.jpg" loading="lazy" class="image" title="z3-adjust" width="307" height="409"></a>
+      </div>
+      <div class="thumbnail">
+         <a href="images/bis_Untitled-1.jpg" data-rel="prettyPhoto_PhotoGallery1[PhotoGallery1]"><img alt="" src="images/tn_bis_Untitled-1.jpg" loading="lazy" class="image" width="307" height="409"></a>
+      </div>
+      <div class="clearfix visible-col3"></div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_layoutGridFooter">
+<div id="layoutGridFooter">
+<div class="row">
+<div class="col-1">
+<div id="wb_footerText2">
+<span style="color:#FFFFFF;font-family:'Open Sans';font-size:35px;"><u>Dove siamo? </u></span><span style="color:#FFFFFF;font-family:'Open Sans';font-size:24px;"><br></span><span style="color:#FFFFFF;font-family:'Open Sans';font-size:21px;">Address/Adresse<br><br></span><span style="background-color:#FFFF00;color:#000000;font-family:'Open Sans';font-size:32px;"><strong>Salita Monte Grappa, 8&nbsp; - VERONA</strong></span>
+</div>
+<!-- Google Maps -->
+<div id="Html1" style="display:inline-block;width:349px;height:216px;z-index:12">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.8882053194898!2d10.987240616027842!3d45.45190887910096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477f58acfb10d81b%3A0xa2bf74370a6a712!2sSalita%20Monte%20Grappa%2C%208%2C%2037128%20Verona%20VR!5e0!3m2!1sit!2sit!4v1677436756862!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+</div>
+</div>
+</div>
+</div>
+<div id="socialSticky" style="position:fixed;text-align:left;left:auto;right:0px;top:50%;margin-top:-150px;width:75px;height:301px;z-index:25;">
+<div id="wb_Icon4" style="position:absolute;left:8px;top:64px;width:22px;height:22px;opacity:0.75;text-align:center;z-index:13;">
+<a href="./FOTO.html"><div id="Icon4"><i class="fa fa-camera-retro"></i></div></a></div>
+<div id="wb_Icon5" style="position:absolute;left:8px;top:183px;width:22px;height:22px;opacity:0.75;text-align:center;z-index:14;">
+<a href="./MAPPA.html"><div id="Icon5"><i class="fa fa-map-marker"></i></div></a></div>
+<div id="wb_Icon2" style="position:absolute;left:8px;top:0px;width:22px;height:22px;opacity:0.75;text-align:center;z-index:15;">
+<a href="./HOME.html"><div id="Icon2"><i class="fa fa-home"></i></div></a></div>
+<div id="wb_Icon6" style="position:absolute;left:8px;top:123px;width:22px;height:22px;opacity:0.75;text-align:center;z-index:16;">
+<a href="./MAPPA.html"><div id="Icon6"><i class="fa fa-envelope-open"></i></div></a></div>
+</div>
+<div id="wb_maps_grid">
+<div id="maps_grid">
+<div class="row">
+<div class="col-1">
+</div>
+<div class="col-2">
+</div>
+<div class="col-3">
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
