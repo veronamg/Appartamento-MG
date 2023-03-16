@@ -1115,6 +1115,13 @@ body
    margin: 0;
    text-align: left;
 }
+#wb_footerText2
+{
+   color: #FFFFFF;
+   font-family: "Open Sans";
+   font-weight: normal;
+   font-size: 27px;
+}
 #wb_footerText2 div
 {
    text-align: left;
