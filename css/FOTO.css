@@ -122,53 +122,6 @@ body
    max-width: 100% !important;
 }
 }
-#upStickyLayer
-{
-   background-color: #4F4F4F;
-   background-image: none;
-   border-radius: 50%;
-   opacity: 0.77;
-}
-#wb_upIcon
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #3E3E3E;
-   border-radius: 0px;
-   text-align: center;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-   vertical-align: top;
-}
-#wb_upIcon a::after
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1;
-   pointer-events: auto;
-   content: "";
-}
-#upIcon
-{
-   height: 24px;
-   width: 24px;
-}
-#upIcon i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 24px;
-   line-height: 24px;
-   vertical-align: middle;
-   width: 23px;
-}
-#wb_upIcon:hover #upIcon i
-{
-   color: #EC9C29;
-}
 #wb_jumbotron
 {
    clear: both;
