@@ -14,6 +14,7 @@ body
 {
    overflow: hidden;
    margin: 0;
+   box-shadow: 4px 4px 4px #393939;
 }
 #SlideShow1 div
 {
@@ -977,7 +978,7 @@ body
 #SlideShow1
 {
    width: 738px;
-   height: 242px;
+   height: 553px;
    visibility: visible;
    display: inline-block;
 }
@@ -1130,8 +1131,8 @@ body
 }
 #SlideShow1
 {
-   width: 232px;
-   height: 174px;
+   width: 290px;
+   height: 217px;
    visibility: visible;
    display: inline-block;
 }
