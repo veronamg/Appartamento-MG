@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Allow: /images/
+Sitemap: https://veronamg.github.io/Appartamento-MG/sitemap.xml
