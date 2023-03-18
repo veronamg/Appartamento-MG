@@ -615,7 +615,7 @@ body
 {
    color: #696969;
 }
-@media (min-width: 480px) 
+@media (min-width: 300px) 
 {
 .headerMenu .navbar-right .dropdown-menu
 {
@@ -669,7 +669,7 @@ body
    border-bottom-color: #000000;
 }
 }
-@media (max-width: 480px) 
+@media (max-width: 300px) 
 {
 .headerMenu 
 {
@@ -704,7 +704,7 @@ body
    line-height: 20px;
 }
 }
-@media (min-width: 480px) 
+@media (min-width: 300px) 
 {
 .headerMenu 
 {
@@ -1183,7 +1183,6 @@ body
 }
 #wb_Image1
 {
-   height: 100%;
    margin: 0;
    vertical-align: top;
 }
@@ -1196,7 +1195,576 @@ body
    filter: drop-shadow(0px 0px 10px rgba(0,0,0,1.00));
    display: block;
    width: 100%;
-   height: 100%;
+   height: auto;
+   max-width: 870px;
+   margin-left: auto;
+   margin-right: auto;
    vertical-align: top;
-   object-fit: scale-down;
+}
+#contactEmail
+{
+   display: block;
+   width: 100%;
+   height: 42px;
+   z-index: 9;
+}
+#contactButton
+{
+   display: inline-block;
+   width: 92px;
+   height: 39px;
+   z-index: 11;
+}
+#Html1
+{
+   display: inline-block;
+   width: 405px;
+   height: 211px;
+   z-index: 6;
+}
+#wb_Image1
+{
+   display: inline-block;
+   width: 100%;
+   height: auto;
+   z-index: 1;
+}
+#contactMessage
+{
+   display: block;
+   width: 100%;
+   height: 108px;
+   z-index: 10;
+}
+#wb_contactBreadcrumb3
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 5;
+   vertical-align: top;
+}
+#wb_contactBreadcrumb2
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 4;
+   vertical-align: top;
+}
+#wb_contactBreadcrumb1
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 3;
+   vertical-align: top;
+}
+#wb_headerMenu
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 0;
+}
+#wb_Heading13
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 7;
+}
+#wb_contactHeading
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 2;
+}
+#contactName
+{
+   display: block;
+   width: 100%;
+   height: 42px;
+   z-index: 8;
+}
+@media only screen and (min-width: 768px) and (max-width: 969px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_header
+{
+   visibility: visible;
+   display: table;
+}
+#wb_header
+{
+   height: auto;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#header
+{
+   height: auto;
+   padding: 0;
+}
+#wb_LayoutGrid3
+{
+   visibility: visible;
+   display: table;
+}
+#wb_LayoutGrid3
+{
+   height: auto;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid3
+{
+   height: auto;
+   padding: 50px 15px 50px 15px;
+}
+#LayoutGrid3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_footerLayoutGrid
+{
+   visibility: visible;
+   display: table;
+}
+#wb_footerLayoutGrid
+{
+   height: auto;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#footerLayoutGrid
+{
+   height: auto;
+   padding: 40px 15px 40px 15px;
+}
+#footerLayoutGrid .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#wb_headerMenu
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#headerMenu, .headerMenu .nav, .headerMenu .dropdown-menu
+{
+   font-family: "Open Sans";
+   font-weight: normal;
+   font-size: 16px;
+}
+#Html1
+{
+   width: 339px;
+   height: 211px;
+   visibility: visible;
+   display: inline-block;
+}
+#wb_contactForm
+{
+   visibility: visible;
+   display: table;
+}
+#wb_contactForm
+{
+   height: auto;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#contactForm
+{
+   height: auto;
+   padding: 10px 15px 10px 15px;
+}
+#contactForm .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#wb_contactHeading
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 10px 0 20px 0;
+}
+#contactName
+{
+   width: 100%;
+   height: 42px;
+   visibility: visible;
+   display: block;
+   margin: 5px 0 10px 0 ;
+   padding: 8px 12px 8px 12px;
+   text-align: left;
+}
+#contactName
+{
+   line-height: 7px;
+}
+#contactEmail
+{
+   width: 100%;
+   height: 42px;
+   visibility: visible;
+   display: block;
+   margin: 5px 0 10px 0 ;
+   padding: 8px 12px 8px 12px;
+   text-align: left;
+}
+#contactEmail
+{
+   line-height: 7px;
+}
+#contactMessage
+{
+   width: 100%;
+   height: 108px;
+   visibility: visible;
+   display: block;
+   margin: 5px 0 10px 0 ;
+   padding: 8px 12px 8px 12px;
+   text-align: left;
+}
+#contactButton
+{
+   width: 92px;
+   height: 39px;
+   visibility: visible;
+   display: inline-block;
+   margin: 10px 0 40px 0 ;
+   padding: 0;
+}
+#contactButton
+{
+   line-height: 37px;
+}
+#wb_contactBreadcrumb1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#contactBreadcrumb1
+{
+   padding: 10px 15px 8px 0;
+   text-align: left;
+}
+#contactBreadcrumb1 > li + li:before
+{
+   padding: 0 5px;
+}
+#wb_contactBreadcrumb2
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#contactBreadcrumb2
+{
+   padding: 8px 15px 8px 0;
+   text-align: left;
+}
+#contactBreadcrumb2 > li + li:before
+{
+   padding: 0 5px;
+}
+#wb_contactBreadcrumb3
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#contactBreadcrumb3
+{
+   padding: 8px 15px 8px 0;
+   text-align: left;
+}
+#contactBreadcrumb3 > li + li:before
+{
+   padding: 0 5px;
+}
+#wb_Heading13
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 10px 0 20px 0;
+}
+#wb_Image1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+}
+@media only screen and (max-width: 767px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_header
+{
+   visibility: visible;
+   display: table;
+}
+#wb_header
+{
+   height: auto;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#header
+{
+   height: auto;
+   padding: 0;
+}
+#wb_LayoutGrid3
+{
+   visibility: visible;
+   display: table;
+}
+#wb_LayoutGrid3
+{
+   height: auto;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid3
+{
+   height: auto;
+   padding: 50px 15px 50px 15px;
+}
+#LayoutGrid3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_footerLayoutGrid
+{
+   visibility: visible;
+   display: table;
+}
+#wb_footerLayoutGrid
+{
+   height: auto;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#footerLayoutGrid
+{
+   height: auto;
+   padding: 40px 15px 40px 15px;
+}
+#footerLayoutGrid .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#wb_headerMenu
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#headerMenu, .headerMenu .nav, .headerMenu .dropdown-menu
+{
+   font-family: "Open Sans";
+   font-weight: normal;
+   font-size: 16px;
+}
+#Html1
+{
+   width: 260px;
+   height: 211px;
+   visibility: visible;
+   display: inline-block;
+}
+#wb_contactForm
+{
+   visibility: visible;
+   display: table;
+}
+#wb_contactForm
+{
+   height: auto;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#contactForm
+{
+   height: auto;
+   padding: 10px 15px 10px 15px;
+}
+#contactForm .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#wb_contactHeading
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 10px 0 20px 0;
+}
+#contactName
+{
+   width: 100%;
+   height: 42px;
+   visibility: visible;
+   display: block;
+   margin: 5px 0 10px 0 ;
+   padding: 8px 12px 8px 12px;
+   text-align: left;
+}
+#contactName
+{
+   line-height: 7px;
+}
+#contactEmail
+{
+   width: 100%;
+   height: 42px;
+   visibility: visible;
+   display: block;
+   margin: 5px 0 10px 0 ;
+   padding: 8px 12px 8px 12px;
+   text-align: left;
+}
+#contactEmail
+{
+   line-height: 7px;
+}
+#contactMessage
+{
+   width: 100%;
+   height: 108px;
+   visibility: visible;
+   display: block;
+   margin: 5px 0 10px 0 ;
+   padding: 8px 12px 8px 12px;
+   text-align: left;
+}
+#contactButton
+{
+   width: 92px;
+   height: 39px;
+   visibility: visible;
+   display: inline-block;
+   margin: 10px 0 40px 0 ;
+   padding: 0;
+}
+#contactButton
+{
+   line-height: 37px;
+}
+#wb_contactBreadcrumb1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#contactBreadcrumb1
+{
+   padding: 10px 15px 8px 0;
+   text-align: left;
+}
+#contactBreadcrumb1 > li + li:before
+{
+   padding: 0 5px;
+}
+#wb_contactBreadcrumb2
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#contactBreadcrumb2
+{
+   padding: 8px 15px 8px 0;
+   text-align: left;
+}
+#contactBreadcrumb2 > li + li:before
+{
+   padding: 0 5px;
+}
+#wb_contactBreadcrumb3
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#contactBreadcrumb3
+{
+   padding: 8px 15px 8px 0;
+   text-align: left;
+}
+#contactBreadcrumb3 > li + li:before
+{
+   padding: 0 5px;
+}
+#wb_Heading13
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 10px 0 20px 0;
+}
+#wb_Image1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
 }
