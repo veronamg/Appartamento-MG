@@ -2234,6 +2234,7 @@ body
    visibility: visible;
    display: block;
    margin: 0;
+   color: #000000;
 }
 #PhotoGallery1 .thumbnail
 {
@@ -2803,6 +2804,7 @@ body
    visibility: visible;
    display: block;
    margin: 0;
+   color: #000000;
 }
 #PhotoGallery1 .thumbnail
 {
