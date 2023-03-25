@@ -1198,7 +1198,7 @@ body
    flex-direction: column;
    box-sizing: border-box;
    margin: 0;
-   animation: flip-in 1500ms linear 0ms infinite normal both;
+   animation: flip-in 4500ms linear 2ms infinite normal both;
    background-color: transparent;
    background-image: none;
    border: 0px solid #DEDEDE;
@@ -1221,6 +1221,7 @@ body
    font-weight: bold;
    font-style: normal;
    font-size: 32px;
+   animation: animate-box-shadow 1000ms linear 0ms infinite normal both;
 }
 #Card1-card-item1
 {
@@ -1982,6 +1983,7 @@ body
    font-weight: bold;
    font-style: normal;
    font-size: 32px;
+   animation: animate-box-shadow 1000ms linear 0ms infinite normal both;
 }
 #Card1-card-item1
 {
@@ -2552,6 +2554,7 @@ body
    font-weight: bold;
    font-style: normal;
    font-size: 32px;
+   animation: animate-box-shadow 1000ms linear 0ms infinite normal both;
 }
 #Card1-card-item1
 {
