@@ -1232,18 +1232,6 @@ body
    border-radius: 4px;
    width: 100%;
    height: auto;
-   animation: animate-border 1000ms linear 0ms infinite normal both;
-}
-#Card1-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 0 0 0 ;
-   padding: 0;
-   color: #292B2C;
-   font-family: "Open Sans";
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
 }
 #wb_Card2
 {
@@ -1994,18 +1982,6 @@ body
    border-radius: 4px;
    width: 100%;
    height: auto;
-   animation: animate-border 1000ms linear 0ms infinite normal both;
-}
-#Card1-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 0 0 0 ;
-   padding: 0;
-   color: #292B2C;
-   font-family: "Open Sans";
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
 }
 #wb_Card1
 {
@@ -2565,18 +2541,6 @@ body
    border-radius: 4px;
    width: 100%;
    height: auto;
-   animation: animate-border 1000ms linear 0ms infinite normal both;
-}
-#Card1-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 0 0 0 ;
-   padding: 0;
-   color: #292B2C;
-   font-family: "Open Sans";
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
 }
 #wb_Card1
 {
