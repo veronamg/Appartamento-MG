@@ -6,9 +6,10 @@
 <meta name="generator" content="WYSIWYG Web Builder 18 - http://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="css/font-awesome.min.css" rel="stylesheet">
-<link href="css/sito_appartam_3PG.css" rel="stylesheet">
+<link href="css/sito_appartam_3PG_RESP.css" rel="stylesheet">
 <link href="css/FOTO.css" rel="stylesheet">
 <script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/wb.conveyerbelt.min.js"></script>
 <script src="js/jquery.ui.effect.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -32,22 +33,17 @@ document.addEventListener('DOMContentLoaded', function(event)
          e.currentTarget.classList.remove('show');
       });
    });
-   var SlideShow1 = new bootstrap.Carousel("#SlideShow1", {interval:3000, ride: true});
 });
 </script>
 <script>
 $(document).ready(function()
 {
+   $("#SlideShow1").conveyerbelt({speed:2, spacing: 2});
    $("a[href*='#header']").click(function(event)
    {
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_header').offset().top }, 600, 'easeOutCirc');
    });
-   var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
-   if (iOS)
-   {
-      $('#wb_jumbotron').css('background-attachment', 'scroll');
-   }
 });
 </script>
 </head>
@@ -57,7 +53,7 @@ $(document).ready(function()
 <div class="col-1">
 </div>
 <div class="col-2">
-<div id="wb_headerMenu" style="display:inline-block;width:100%;z-index:0;">
+<div id="wb_headerMenu">
 <div id="headerMenu" class="headerMenu" style="width:100%;height:auto !important;">
 <div class="container">
 <div class="navbar-header">
@@ -91,74 +87,22 @@ $(document).ready(function()
 <div id="wb_jumbotron">
 <div id="jumbotron">
 <div class="col-1">
-<div id="wb_SlideShow1" style="display:inline-block;position:relative;width:798px;height:242px;z-index:1;">
-<div id="SlideShow1" data-bs-ride="carousel" class="carousel slide">
-<div class="carousel-inner">
-<div class="carousel-item active">
-<div class="thumbnails">
-<div class="thumbnail">
-<img class="image" width="1500" height="1125" src="images/a1.jpg" alt="" title="">
-</div>
-<div class="thumbnail">
-<img class="image" width="1500" height="1125" src="images/a2.jpg" alt="" title="">
-</div>
-<div class="thumbnail">
-<img class="image" width="1500" height="1125" src="images/b3.jpg" alt="" title="">
-</div>
-</div>
-</div>
-<div class="carousel-item">
-<div class="thumbnails">
-<div class="thumbnail">
-<img class="image" width="1500" height="1125" src="images/b4.jpg" alt="" title="">
-</div>
-<div class="thumbnail">
-<img class="image" width="1500" height="1125" src="images/ba.jpg" alt="" title="">
-</div>
-<div class="thumbnail">
-<img class="image" width="1500" height="1125" src="images/ba2.jpg" alt="" title="">
-</div>
-</div>
-</div>
-<div class="carousel-item">
-<div class="thumbnails">
-<div class="thumbnail">
-<img class="image" width="1500" height="1125" src="images/g2.jpg" alt="" title="">
-</div>
-<div class="thumbnail">
-<img class="image" width="1500" height="1125" src="images/g-adjust.jpg" alt="" title="">
-</div>
-<div class="thumbnail">
-<img class="image" width="1500" height="1125" src="images/s.jpg" alt="" title="">
-</div>
-</div>
-</div>
-<div class="carousel-item">
-<div class="thumbnails">
-<div class="thumbnail">
-<img class="image" width="1500" height="1125" src="images/s3-adjust.jpg" alt="" title="">
-</div>
-<div class="thumbnail">
-<img class="image" width="1500" height="1125" src="images/t-adjust.jpg" alt="" title="">
-</div>
-<div class="thumbnail">
-<img class="image" width="1500" height="1125" src="images/z.jpg" alt="" title="">
-</div>
-</div>
-</div>
-<div class="carousel-item">
-<div class="thumbnails">
-<div class="thumbnail">
-<img class="image" width="1500" height="1125" src="images/z2.jpg" alt="" title="">
-</div>
-<div class="thumbnail">
-<img class="image" width="1500" height="1125" src="images/z3-adjust.jpg" alt="" title="">
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+<ul id="SlideShow1">
+<li><img class="image" width="1500" height="1125" src="images/a1.jpg" alt="" title=""></li>
+<li><img class="image" width="1500" height="1125" src="images/a2.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="1500" height="1125" src="images/b3.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="1500" height="1125" src="images/b4.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="1500" height="1125" src="images/ba.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="1500" height="1125" src="images/ba2.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="1500" height="1125" src="images/g2.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="1500" height="1125" src="images/g-adjust.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="1500" height="1125" src="images/s.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="1500" height="1125" src="images/s3-adjust.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="1500" height="1125" src="images/t-adjust.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="1500" height="1125" src="images/z.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="1500" height="1125" src="images/z2.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="1500" height="1125" src="images/z3-adjust.jpg" style="display:none;" alt="" title=""></li>
+</ul>
 </div>
 </div>
 </div>
@@ -186,8 +130,5 @@ $(document).ready(function()
 </div>
 </div>
 </div>
-<div id="wb_PhotoGallery2" style="position:absolute;left:48px;top:95px;width:672px;height:151px;z-index:8;">
-<div id="PhotoGallery2">
-</div></div>
 </body>
 </html>
